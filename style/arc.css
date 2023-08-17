@@ -136,8 +136,9 @@ main {
 }
 
 .feature-img img {
-    height: 90%;
-    margin-left: 90px;
+    height: 81%;
+
+    margin-left: 60px;
 }
 
 .experience-badge {
@@ -215,14 +216,20 @@ main {
 
 }
 
+/* footer section */
 
 
+footer {
+    border-radius: 8px;
+    text-align: center;
+    background: #FFF4E7;
+    padding: 35px;
+}
 
+footer .text-description {
+    font-size: 1.4rem;
 
-
-
-
-
+}
 
 
 
@@ -269,7 +276,21 @@ main {
         gap: 18px;
     }
 
+    footer {
+        padding: 3px 10px;
+    }
+
+    footer .text-description {
+        font-size: 1rem;
+
+    }
+
 }
+
+
+
+
+
 
 /* medium devices and tablet */
 @media screen and (min-width:576px) and (max-width:960px) {
